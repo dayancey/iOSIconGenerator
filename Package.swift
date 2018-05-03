@@ -15,5 +15,6 @@ let package = Package(
         .target(
             name: "iOSIconGenerator",
             dependencies: ["iOSIconGeneratorCore"]),
+        .target(name: "iOSIconGeneratorCore")
     ]
 )
